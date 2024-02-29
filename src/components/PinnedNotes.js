@@ -10,7 +10,7 @@ const PinnedNotes = (props) => {
  
   
   
-  const host = "http://localhost:5000";
+  const host = "https://yournotebook-backend.onrender.com";
 
   const [note, setNote] = useState({
     id: "",
