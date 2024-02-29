@@ -11,7 +11,7 @@ const Notes = (props) => {
   const { notes, getAllNotes, editNote } = context;
   const navigate = useNavigate();
   const { mode } = props;
-  const host = "http://localhost:5000";
+  const host = "https://yournotebook-backend.onrender.com";
   
 
   const [pinnedNotes, setPinnedNotes] = useState([]);
