@@ -1,0 +1,86 @@
+/* Updated CSS Styles for Noteitem Component */
+
+/* General Styles */
+body {
+    font-family: "Outfit", sans-serif;
+    background-color: #f8f9fa; /* Light gray background */
+   
+  }
+  
+  .container {
+   
+    margin: 0 auto; /* Center container horizontally */
+  }
+  
+  /* Card Styles */
+  .card {
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px auto; 
+    overflow: hidden; 
+  }
+  
+  .card-header {
+    padding: 15px;
+    background-color: #f8f9fa; /* Light gray background for header */
+    border-bottom: 1px solid #e2e8f0;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    margin-bottom: 0; /* Remove default margin */
+  }
+  
+  .card-body {
+    padding: 15px; /* Increased padding for better readability */
+     /* Enable vertical scrolling */
+    /* Set max height to enable scrolling after a certain point */
+  }
+  
+  .card-text {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+  }
+  
+  .card-footer {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between; /* Align items on the card footer */
+  }
+  
+  /* Tag Styles */
+  .tags {
+    margin-top: 8px; /* Increased top margin for better separation */
+  }
+  
+  .tag {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 4px 12px;
+    border-radius: 15px;
+    margin-right: 5px;
+    margin-bottom: 4px;
+    font-size: 0.81rem;
+  }
+  
+  /* Icon Styles */
+  .icon {
+    font-size: 1.2rem;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    padding: 7px;
+  }
+  
+  /* Hover Effects */
+  .icon:hover {
+    transform: scale(1.1); /* Scale up on hover for interactive feedback */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .card {
+      max-width: 100%; /* Adjust card width for smaller screens */
+    }
+  }
