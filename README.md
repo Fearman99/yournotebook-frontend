@@ -1,5 +1,7 @@
 # Notes Manager App(YourNoteBook)
 
+https://github.com/user-attachments/assets/1054114c-fa03-4578-bbcf-ef8293cdebaf
+
 ## Overview
 
 The **Notes Manager App** is a modern, full-stack note-taking application designed to streamline the process of managing notes. This application allows users to add, delete, update, pin, and search notes efficiently. Built using the MERN stack (MongoDB, Express.js, React.js, Node.js), it leverages RESTful APIs for seamless CRUD operations and incorporates secure authentication features to protect user data.
