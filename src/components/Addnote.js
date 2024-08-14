@@ -231,37 +231,6 @@ const AddNote = (props) => {
             </svg>
           </button>
         </div>
-        <div className="mb-3 form-group">
-          <label
-            htmlFor="document"
-            style={{
-              fontWeight: "bold",
-              fontSize: "18px",
-              marginBottom: "6px",
-            }}
-          >
-            Documents
-          </label>
-          <input
-            type="file"
-            className="form-control"
-            id="document"
-            name="document"
-            placeholder=".pdf .docx"
-            onChange={handleFileChange}
-            style={{
-              width: "100%",
-              borderRadius: "8px",
-              border: "1px solid #ced4da",
-              marginTop: "8px",
-              fontSize: "16px",
-              transition: "border-color 0.3s",
-              resize: "vertical",
-              overflowY: "auto",
-              whiteSpace: "pre-wrap",
-            }}
-          />
-        </div>
         <button
           type="submit"
           disabled={note.title.length < 5 || note.description.length < 5}
